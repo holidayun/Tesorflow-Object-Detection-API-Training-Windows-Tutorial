@@ -11,7 +11,7 @@ https://github.com/holidayun/tesorflow-tools
 3. 在\tensorflow\models\research\object_detectio 下新建images文件夹
 4. 在\tensorflow\models\research\object_detectio\imgaes  新建test文件夹与train文件夹
 5. 模型下载，可根据自己的需求，下载对应的模型，
-![这里写图片描述](https://img-blog.csdn.net/2018090413151460?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hvbGlkYXl1bg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/holidayun/tesorflow-tools/tree/master/screenshots/model.png)
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 
     SDD-MobileNet模型训练速度较快，但是精确度不太理想，本教程使用
@@ -152,7 +152,7 @@ python train.py --logtostderr --train_dir=training/ --pipeline_config_path=train
 到/research/object_detection目录下执行即可。
 
 如果一切设置正确，TensorFlow将初始化培训。在实际训练开始之前，初始化可能需要几十秒。培训开始时，它将如下所示：
-![这里写图片描述](https://img-blog.csdn.net/20180904140251356?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hvbGlkYXl1bg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/holidayun/tesorflow-tools/tree/master/screenshots/training.png)
 
 8.导出推理图
 ------
