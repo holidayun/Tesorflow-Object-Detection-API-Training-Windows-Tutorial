@@ -4,8 +4,7 @@ tensorflow object detection api tools
 -----
 1. 在训练自己的检查器之前，需要能通过官方tensorflow-object-detection-api的运行测试，详见上一篇博客：
 https://blog.csdn.net/holidayun/article/details/82378201
-2. 从github上面下载xml_to_csv.py 与 generate_tfrecord.py，地址如下：
-https://github.com/holidayun/tesorflow-tools
+2. 下载本教程提供的xml_to_csv.py 与 generate_tfrecord.py
 将下载完成的文件放入到 
 \tensorflow\models\research\object_detection 目录下
 3. 在\tensorflow\models\research\object_detectio 下新建images文件夹
