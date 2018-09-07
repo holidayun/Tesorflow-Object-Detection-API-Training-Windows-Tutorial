@@ -10,7 +10,7 @@ https://blog.csdn.net/holidayun/article/details/82378201
 3. 在\tensorflow\models\research\object_detectio 下新建images文件夹
 4. 在\tensorflow\models\research\object_detectio\imgaes  新建test文件夹与train文件夹
 5. 模型下载，可根据自己的需求，下载对应的模型，
-![这里写图片描述](https://github.com/holidayun/tesorflow-tools/raw/master/screenshots/model.png)
+![这里写图片描述](https://github.com/holidayun/Tesorflow-Object-Detection-API-Training-Windows-Tutorial/raw/master/screenshots/model.png)
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 
     SDD-MobileNet模型训练速度较快，但是精确度不太理想，本教程使用
