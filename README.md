@@ -2,8 +2,8 @@
 tensorflow object detection api tools
 训练前准备：
 -----
-1. 在训练自己的检查器之前，需要能通过官方tensorflow-object-detection-api的运行测试，详见上一篇博客：
-https://blog.csdn.net/holidayun/article/details/82378201
+1. 在训练自己的检查器之前，需要能通过官方tensorflow-object-detection-api的运行测试，详见：
+https://github.com/holidayun/Tensorflow-Object-Detection-API-Running-Tutorial/blob/master/README.md
 2. 下载本教程提供的xml_to_csv.py 与 generate_tfrecord.py
 将下载完成的文件放入到 
 \tensorflow\models\research\object_detection 目录下
