@@ -141,6 +141,9 @@ label_map_path：“D:/Image-GPU/tensorflow/models/research/object_detection/tra
 
 7.运行培训
 ------
+**注：这一步之前必须确定自己的tensorflow版本>1.9.0,否则会出现 
+TypeError: non_max_suppression() got an unexpected keyword 
+argument ‘score_threshold’的错误**
 
 ```
 python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
